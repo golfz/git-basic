@@ -3,11 +3,11 @@
 ## Log
 
 ```shell
-git log --one-line
+git log --oneline
 ```
 
 ```shell
-git log --one-line --stat
+git log --oneline --stat
 ```
 
 ## การแก้ไข Commit
@@ -93,11 +93,13 @@ git branch -d test
 ```
 
 ลบ Branch บน Remote
+
 ```shell
 git push -d origin test
 ```
 
 ## ดู Log แบบ Graph
+
 ```shell
 git log --all --graph
 ```
