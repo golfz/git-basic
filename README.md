@@ -1,5 +1,55 @@
 # Git Basic
 
+## Configure Git
+
+ตั้งค่า User
+
+```shell
+git config --global user.name "Firstname Lastname"
+git config --global user.email username@email.com
+```
+
+ตั้งค่า Editor เช่น VSCode <br>
+__หมายเหตุ__ เราต้องตั้งค่า VSCode ใน PATH ก่อน
+
+```shell
+git config --global core.editor "code --wait"
+```
+
+กำหนดชื่อ default ของ branch
+
+```shell
+git config --global init.defaultBranch "main"
+```
+
+ดู config ทั้งหมด
+
+```shell
+git config --list
+```
+
+การเปิดไฟล์ config ของ git ขึ้นมาดู
+
+```shell
+git config --global -e
+```
+
+## Git Status
+
+คือ การดูสถานะปัจจุบันของ Working Directory
+
+การดูตามปกติ
+
+```shell
+git status
+```
+
+การดูแบบสั้น
+
+```shell
+git status -s
+```
+
 ## Log
 
 ```shell
