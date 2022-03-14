@@ -76,13 +76,13 @@ git commit --amend --no-edit
 
 ## Git Reset
 
-1. --soft : ลบ Commit ทั้งหมดที่อยู่หลัง Commit ID หนึ่ง และนำไฟล์ที่เคยอยู่ใน commit เหล่านั้นกลับมายัง Staging Area
+1. __--soft__ : ลบ Commit ทั้งหมดที่อยู่หลัง Commit ID หนึ่ง และนำไฟล์ที่เคยอยู่ใน commit เหล่านั้นกลับมายัง Staging Area
 
 ```shell
 git reset --soft 3e892f
 ```
 
-2. --mixed : ลบ Commit ทั้งหมดที่อยู่หลัง Commit ID หนึ่ง และนำไฟล์ที่เคยอยู่ใน commit เหล่านั้นกลับมายัง Working
+2. __--mixed__ : ลบ Commit ทั้งหมดที่อยู่หลัง Commit ID หนึ่ง และนำไฟล์ที่เคยอยู่ใน commit เหล่านั้นกลับมายัง Working
    Directory
 
 ```shell
@@ -95,7 +95,7 @@ git reset --mixed 3e892f
 git reset 3e892f
 ```
 
-3. --hard : ลบ Commit ทั้งหมดที่อยู่หลัง Commit ID หนึ่ง และทำลายไฟล์ที่เคยอยู่ใน commit เหล่านั้นทิ้งทั้งหมด
+3. __--hard__ : ลบ Commit ทั้งหมดที่อยู่หลัง Commit ID หนึ่ง และทำลายไฟล์ที่เคยอยู่ใน commit เหล่านั้นทิ้งทั้งหมด
 
 ```shell
 git reset --hard 3e892f
